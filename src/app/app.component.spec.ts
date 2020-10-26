@@ -19,7 +19,6 @@ describe('AppComponent', () => {
   it(`should have as title 'ng4-complete-guide'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('ng4-complete-guide');
   });
 
   it('should render title', () => {
